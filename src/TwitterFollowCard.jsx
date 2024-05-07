@@ -2,6 +2,7 @@ import {useState} from "react";
 
 export function TwitterFollowCard({ children, userName }) {
 
+    //    valor de estado  -   forma de actualizar el estado
     const [isFollowing, setIsFollowing] = useState(false);
 
 

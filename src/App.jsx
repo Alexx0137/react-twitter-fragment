@@ -1,10 +1,11 @@
 import './App.css';
 import {TwitterFollowCard} from "./TwitterFollowCard.jsx";
 
-export function App() {
+export function App() {    // Componente Padre
 
+    //
     return (
-        <section className="App">
+        <section className="App">  { /* Componente Hijo donde le pasamos props del padre */ }
             <TwitterFollowCard userName="NetflixLAT">
                 Netflix Latinoamérica
             </TwitterFollowCard>
